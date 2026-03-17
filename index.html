@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiệp Cưới Đoàn Hoài và Đức Hiếu</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="cover-page">
+    <div class="cover-content">
+        <div class="symbol-top">囍</div>
+        <h2 class="script-font">Đức Hiếu & Đoàn Hoài</h2>
+        <div class="line-deco"></div>
+        <p class="cover-date">01 tháng 05, 2026</p>
+        <p class="invite-label">Thân Mời</p>
+        <button id="open-btn" onclick="openWeddingCard()">Mở thiệp</button>
+    </div>
+    
+    <div class="deco-bird-left"></div>
+    <div class="deco-dragon-right"></div>
+</div>
+    <audio id="bgMusic" loop>
+        <source src="./paulyudin-wedding-485932.mp3" type="audio/mpeg">
+    </audio>
+    <button id="musicBtn" onclick="toggleMusic()">🎵</button>
+
+    <div class="main-container">
+
+        <section  class="section header-section ">
+            <div class="content-box">
+                <h1 class="script-font reveal-down">Save The Date</h1>
+                <p class="date-top reveal-left">01 . 05 . 2026</p>
+                <h2 class="script-font couple-names">Đức Hiếu – Đoàn Hoài</h2>
+                <div class="img-wrapper reveal-up">
+                    <img src="./643518747_1247219126960696_1907826313099805036_n-removebg-preview.png" alt="Ảnh cưới" class="main-img">
+                    <div class="hy-symbol">囍</div>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="section unified-section ">
+            <div class="card-container">
+                
+                <div class="header-invitation">
+                    <h2 class="script-font">Wedding Invitation</h2>
+                </div>
+
+                <div class="main-body">
+                    
+                    <div class="info-block">
+                        <div class="parents-info ">
+                            <div class="side reveal-left">
+                                <h3>Nhà trai</h3>
+                                <p>Ông Nguyễn Viết Minh</p>
+                                <p>Bà Trịnh Thị Lan</p>
+                            </div>
+                            <div class="side reveal-right">
+                                <h3>Nhà gái</h3>
+                                <p>Ông Đoàn Văn Đông</p>
+                                <p>Bà Nguyễn Thị Hải</p>
+                            </div>
+                        </div>
+
+                        <div class="groom-bride-photos">
+                            <div class="photo-item reveal-left delay-1">
+                                <img src="./TJ4_0065.JPG" alt="Chú rể">
+                            </div>
+                            
+                            <div class="photo-item reveal-right delay-2">
+                                <img src="./TJ4_0279.JPG" alt="Cô dâu">
+                            </div>
+                        </div>
+                        
+                        <p class="couple-names script-font">Nguyễn Đức Hiếu   <span class="and">&</span>   Đoàn Thị Hoài</p>
+
+                        <div class="countdown-container">
+                            <div class="box"><span id="days">00</span><p>ngày</p></div>
+                            <div class="box"><span id="hours">00</span><p>giờ</p></div>
+                            <div class="box"><span id="minutes">00</span><p>phút</p></div>
+                            <div class="box"><span id="seconds">00</span><p>giây</p></div>
+                        </div>
+                    </div>
+
+                    <div class="divider">
+                        <div class="circle-notch left "></div>
+                        <div class="circle-notch right "></div>
+                    </div>
+
+                    <div class="invite-time-block">
+                        <h2 class="script-font trantrong-title reveal-up">Trân Trọng Kính Mời</h2>
+                        
+                        <div class="gallery-wrapper">
+                            <img src="./TJ4_0351.JPG" class="gal-img side-img reveal-left" alt="Ảnh 1">
+                            <img src="./TJ4_0486.JPG" class="gal-img center-img reveal-up" alt="Ảnh 2">
+                            <img src="./TJ4_0490.JPG" class="gal-img side-img reveal-right" alt="Ảnh 3">
+                        </div></p>
+                        <p class="thongtin-tiec">THAM DỰ TIỆC MỪNG LỄ THÀNH HÔN</p>
+                        <p class="vao-luc">Vào lúc</p>
+
+                        <div class="time-vertical-box">
+                            <div class="time-col">12:00</div>
+                            <div class="time-col middle-col">
+                                Thứ Sáu<br>
+                                <span class="big-date-italic">1</span><br>
+                                Tháng 5
+                            </div>
+                            <div class="time-col">2025</div>
+                        </div>
+
+                        <div class="calendar-card">
+                            <div class="cal-header">05.2025</div>
+                            <div class="calendar-days">
+                                <div>MON</div><div>TUE</div><div>WED</div>
+                                <div>THU</div><div>FRI</div><div>SAT</div><div>SUN</div>
+                            </div>
+
+                            <div class="calendar-dates">
+                                <!-- hàng đầu (bắt đầu từ thứ 6) -->
+                                <div></div><div></div><div></div><div></div>
+                                
+                                <div class="heart">1</div> <!-- ngày cưới ❤️ -->
+                                <div>2</div>
+                                <div>3</div>
+
+                                <!-- các ngày tiếp -->
+                                <div>4</div><div>5</div><div>6</div><div>7</div>
+                                <div>8</div><div>9</div><div>10</div>
+
+                                <div>11</div><div>12</div><div>13</div><div>14</div>
+                                <div>15</div><div>16</div><div>17</div>
+
+                                <div>18</div><div>19</div><div>20</div><div>21</div>
+                                <div>22</div><div>23</div><div>24</div>
+
+                                <div>25</div><div>26</div><div>27</div><div>28</div>
+                                <div>29</div><div>30</div><div>31</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="divider" style="margin-bottom: 0;">
+                        <div class="circle-notch left"></div>
+                        <div class="circle-notch right"></div>
+                    </div>
+                    <div class="location-block" style="text-align: center; padding: 20px 0 40px;">
+            
+                        <h3 class="script-font location-title" style="color: var(--primary-red); margin-top: 0;">Địa Điểm Tổ Chức</h3>
+                        <p class="location-name" style="color: var(--text-dark); font-weight: 600; font-size: 1.1rem; margin-bottom: 5px;">Thôn 8 Đức Liễu,</p>
+                        <p class="location-address" style="color: #555; margin-top: 0;">Bù Đăng, Bình Phước</p>
+                        
+                        <div class="map-wrapper" style="width: 90%; margin: 20px auto 0; position: relative; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+                            
+                            <iframe src="https://www.google.com/maps?q=11.708962,107.100327&z=16&output=embed" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            
+                            <a href="https://maps.app.goo.gl/LsyfLee5n5eoEgh17" target="_blank" class="map-btn">Xem bản đồ lớn</a>
+                        </div>
+                    </div>
+                    <div class="divider" style="margin-bottom: 0;">
+                        <div class="circle-notch left"></div>
+                        <div class="circle-notch right"></div>
+                    </div>
+                    <div class="rsvp-block" style="padding: 10px 20px 40px; text-align: left;">
+                        
+                        <h3 class="script-font rsvp-title" style="text-align: center; color: var(--primary-red); margin-bottom: 0;">Xác nhận tham dự</h3>
+                        <div class="hy-symbol-red" style="text-align: center; margin-top: -10px;">囍</div>
+
+                        <form class="rsvp-form" id="weddingForm" name="weddingForm">
+                            <label style="color: var(--text-dark);">Họ và tên</label>
+                            <input type="text" name="hoTen" placeholder="Nhập tên của bạn" required>
+
+                            <label style="color: var(--text-dark);">Bạn sẽ tham dự chứ?</label>
+                            <div class="radio-group" style="color: var(--text-dark);">
+                                <input type="radio" id="yes" name="thamDu" value="Có, sẽ tham dự" checked>
+                                <label for="yes">Có, tôi sẽ tham dự</label>
+                            </div>
+                            <div class="radio-group" style="color: var(--text-dark);">
+                                <input type="radio" id="no" name="thamDu" value="Bận không tham dự">
+                                <label for="no">Tôi bận, rất tiếc không thể tham dự</label>
+                            </div>
+
+                            <button type="submit" class="submit-btn" id="submitBtn">Gửi xác nhận</button>
+                        </form>
+
+                        <p class="quote" style="text-align: center; margin-top: 30px;">"Hạnh phúc lớn nhất chính là có thể đặt tay mình vào tay em."</p>
+                    </div>
+                    
+                    <div class="divider" style="margin-bottom: 0;">
+                    </div>
+                    <div class="story-block-1" style="padding: 20px 15px;">
+                        <div class="split-layout">
+                            <div class="left-text script-font">
+                                <span>Hiếu</span>
+                                <span class="ampersand">&</span>
+                                <span>Hoài</span>
+                            </div>
+                            <div class="right-image">
+                                <img src="./TJ4_0065.JPG" alt="Huy & Thúy" class="shadow-img">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="divider">
+                        
+                    </div>
+
+                    <div class="story-block-2" style="padding: 0px 15px 20px;">
+                        <p class="script-font romantic-quote">
+                            Em không phải là điểm cuối của tình yêu, mà là động lực nguyên sơ của nó. Vì em, anh đã yêu thế giới này.
+                        </p>
+                        
+                        <div class="masonry-gallery">
+                            <div class="grid-item">
+                                <img src="./TJ4_0351.JPG" class="gal-img side-img reveal-left" alt="Ảnh 1">
+                            </div>
+                            <div class="grid-item">
+                                <img src="./TJ4_0486.JPG" class="gal-img center-img reveal-right delay-1" alt="Ảnh 2">
+                            </div>
+                            <div class="grid-item full-width">
+                                <img src="./TJ4_0490.JPG" class="gal-img side-img reveal-right" alt="Ảnh 3">
+                            </div>
+                        </div>
+                    </div>
+                    </div> 
+                </div>
+        </section>
+        <section class="section thank-you-section reveal-left">
+            <div class="thank-you-container">
+                <img src="./anhcuopi-fotor-bg-remover-2026031717447.png" alt="Thank You" class="thank-you-img">
+                
+                <div class="thank-you-band">
+                    <h1 class="script-font">Thank You !</h1>
+                </div>
+            </div>
+        </section>
+    </div> 
+</body>
+<script src="script.js"></script>
+</html>
